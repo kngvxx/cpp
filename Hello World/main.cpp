@@ -2,11 +2,16 @@
 
 using namespace std;
 
+int calkowita;
+float wymierna;
+
 int main()
 {
-    for(int i=1;i<=10;i++)
-    {
-        cout<<i<<"\t";
-    }
+
+    cout<<"Podaj liczbe calkowita: "<<endl;
+    cin>>calkowita;
+    cout<<"Podaj liczbe wymierna: "<<endl;
+    cin>>wymierna;
+    cout<<"Twoja liczba calkowita to: "<<calkowita<<" a wymierna: "<<wymierna;
     return 0;
 }
