@@ -5,24 +5,19 @@ using namespace std;
 //int calkowita;
 //float wymierna;
 
+int n;
+int m;
+
+
 int main()
 {
 
-    for(int i=1; i<=100; i++)
+    cin>>n;
+    cin>>m;
+
+    for(int i=1;i<m;i++)
     {
-        if(i%3==0 && i%5==0)
-        {
-            cout<<i<<" fizz-buzz"<<endl;
-        }
-        else if(i%3==0)
-        {
-            cout<<i<<" fizz"<<endl;
-        }
-        else if(i%5==0)
-        {
-            cout<<i<<" buzz"<<endl;
-        }
-        else
+        if(i%n==0)
         {
             cout<<i<<endl;
         }
