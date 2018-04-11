@@ -8,10 +8,25 @@ float wymierna;
 int main()
 {
 
-    cout<<"Podaj liczbe calkowita: "<<endl;
-    cin>>calkowita;
-    cout<<"Podaj liczbe wymierna: "<<endl;
-    cin>>wymierna;
-    cout<<"Twoja liczba calkowita to: "<<calkowita<<" a wymierna: "<<wymierna;
+    for(int i=1;i<=100;i++)
+    {
+        if(i%3==0 && i%5==0)
+        {
+            cout<<i<<" fizz-buzz"<<endl;
+        }
+        else if(i%3==0)
+        {
+            cout<<i<<" fizz"<<endl;
+        }
+        else if(i%5==0)
+        {
+            cout<<i<<" buzz"<<endl;
+        }
+        else
+        {
+            cout<<i<<endl;
+        }
+    }
+
     return 0;
 }
