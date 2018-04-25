@@ -2,8 +2,14 @@
 
 using namespace std;
 
+void hello_world()
+{
+cout << "Hello world!" << endl;
+}
+
 int main()
 {
-    cout << "Hello world!" << endl;
+    hello_world();
+
     return 0;
 }
